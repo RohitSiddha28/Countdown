@@ -4,5 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/TIMER/",   // 🔥 THIS LINE FIXES GITHUB PAGES
+  base: "/Countdown/",   
 })
