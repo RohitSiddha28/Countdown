@@ -68,10 +68,10 @@ const App: React.FC = () => {
     <div className="h-screen bg-linear-to-br from-gray-900 to-black text-white flex flex-col items-center justify-center gap-10">
       
       <h1 className="text-3xl md:text-5xl font-bold text-center">
-        Hey, it's coming! 😏🫣
+        Hey, it's coming! 😏 🫣 👀
       </h1>
 
-      <div className="flex gap-6 md:gap-10">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10">
         <TimeBlock value={timeLeft.days} label="Days" />
         <TimeBlock value={timeLeft.hours} label="Hours" />
         <TimeBlock value={timeLeft.minutes} label="Minutes" />
